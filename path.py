@@ -4,5 +4,5 @@
 # Date: 2022-03-07
 # E-mail: zhuwenjing02@duxiaoman.com
 
-datasets_path = '/content/drive/MyDrive/IEMOCAP_S2'
-IEMOCAP = "/content/drive/MyDrive/IEMOCAP_S2"
+datasets_path = '/content/GLAM/IEMOAP_S2'
+IEMOCAP = "/content/GLAM/IEMOAP_S2"
