@@ -54,7 +54,7 @@ class FeatureExtractor(object):
 
     def get_mfcc(self, X, nmfcc=13):
         def _get_mfcc(x):
-            mfcc_data = librosa.feature.mfcc(x, sr=self.sample_rate, n_mfcc=nmfcc)
+            mfcc_data = librosa.feature.mfcc(y=x, sr=self.sample_rate, n_mfcc=nmfcc)
             return mfcc_data
 
         X_features = np.apply_along_axis(_get_mfcc, 1, X)
