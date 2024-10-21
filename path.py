@@ -5,4 +5,4 @@
 # E-mail: zhuwenjing02@duxiaoman.com
 
 datasets_path = '/content/GLAM/IEMOAP_S2'
-IEMOCAP = "/content/GLAM/IEMOAP_S2"
+IEMOCAP = "/content/GLAM/IEMOCAP_full_release"
