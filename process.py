@@ -23,6 +23,7 @@ class FeatureExtractor(object):
     def __init__(self, sample_rate, nmfcc = 26):
         self.sample_rate = sample_rate
         self.nmfcc = nmfcc
+        
 
     def get_features(self, features_to_use, X):
         X_features = None
